@@ -3,15 +3,15 @@ import classes from '../../styles/account.module.css';
 
 const Account = () => {
     return (
-        <div className={ classes.account }>
-            <span className="material-icons-outlined" title="Account">
+        <div className={ classes.account } >
+            <span className="material-icons-outlined" title="Account" >
                 account_circle
-            </span>
+            </span >
             <a href="signup.html">Signup</a>
             {
                 /*<span className="material-icons-outlined" title="Logout"> logout </span>*/
             }
-        </div>
+        </div >
     );
 };
 

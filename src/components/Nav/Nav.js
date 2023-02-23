@@ -6,7 +6,7 @@ import Account from './Account';
 
 const Nav = () => {
     return (
-        <nav className={ classes.nav }>
+        <nav className={ classes.nav } >
             <ul>
                 <li>
                     <a href="/" className={ classes.brand }>
@@ -14,9 +14,9 @@ const Nav = () => {
                         <h3>Learn with Sumit</h3>
                     </a>
                 </li>
-            </ul>
+            </ul >
             <Account />
-        </nav>
+        </nav >
     );
 };
 

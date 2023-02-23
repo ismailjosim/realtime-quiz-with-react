@@ -1,10 +1,12 @@
 import React from 'react';
+import Videos from '../Home/Videos';
 
 const Home = () => {
     return (
-        <div>
-            hello
-        </div>
+        <section>
+            <Videos />
+
+        </section>
     );
 };
 
