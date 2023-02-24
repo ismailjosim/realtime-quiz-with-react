@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from '../../styles/signUpForm.module.css';
+import classes from '../../styles/form.module.css';
 
-const SignupForm = ({ children, className, ...rest }) => {
+const Form = ({ children, className, ...rest }) => {
     return (
         <form
             action="#"
@@ -13,4 +13,4 @@ const SignupForm = ({ children, className, ...rest }) => {
     );
 };
 
-export default SignupForm;
+export default Form;
