@@ -9,7 +9,6 @@ const Main = ({ children }) => {
             <Nav />
             <main className={ classes.main }>
                 <div className={ classes.container }>
-
                 </div>
             </main>
 
