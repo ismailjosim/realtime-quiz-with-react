@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import leftIcon from '../../images/signup.svg';
-import classes from '../../styles/signup.module.css';
-import Form from '../SignUp/Form';
-import Illustration from '../SignUp/Illustration';
-import Button from '../utilities/Button';
-import Checkbox from '../utilities/Checkbox';
-import TextInput from '../utilities/TextInput';
+import Form from '../components/SignUp/Form';
+import Button from '../components/utilities/Button';
+import Checkbox from '../components/utilities/Checkbox';
+import Illustration from '../components/utilities/Illustration';
+import TextInput from '../components/utilities/TextInput';
+import leftIcon from '../images/signup.svg';
+import classes from '../styles/signup.module.css';
 
 const SignUp = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Analysis from './../Result/Analysis';
-import Summery from './../Result/Summery';
+import Analysis from '../components/Result/Analysis';
+import Summery from '../components/Result/Summery';
 
 const Result = () => {
     return (

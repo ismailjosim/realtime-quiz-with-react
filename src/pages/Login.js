@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import leftIcon from '../../images/login.svg';
-import classes from '../../styles/login.module.css';
-import Form from '../SignUp/Form';
-import Illustration from '../SignUp/Illustration';
-import Button from '../utilities/Button';
-import TextInput from '../utilities/TextInput';
+import Form from '../components/SignUp/Form';
+import Button from '../components/utilities/Button';
+import Illustration from '../components/utilities/Illustration';
+import TextInput from '../components/utilities/TextInput';
+import leftIcon from '../images/login.svg';
+import classes from '../styles/login.module.css';
 
 const Login = () => {
     return (

@@ -1,7 +1,7 @@
 
 import { RouterProvider } from 'react-router-dom';
+import routes from '../routes/routes';
 import '../styles/global.css';
-import routes from './routes/routes';
 
 
 
