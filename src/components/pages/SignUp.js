@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import leftIcon from '../../images/signup.svg';
 import classes from '../../styles/signup.module.css';
 import Form from '../SignUp/Form';
@@ -23,7 +24,7 @@ const SignUp = () => {
                         <span>Submit Now</span>
                     </Button>
                     <div className="info">
-                        Already have an account? <a href="login.html">Login</a> instead.
+                        Already have an account? <Link to="/login">Login</Link> instead.
                     </div>
                 </Form>
             </div>
