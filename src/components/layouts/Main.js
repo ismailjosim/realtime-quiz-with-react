@@ -1,20 +1,15 @@
-import React from 'react';
-import Nav from '../Nav/Nav';
+// import React from 'react';
+// import { Outlet } from 'react-router-dom';
+// import Nav from './../Nav/Nav';
 
-import classes from '../../styles/main.module.css';
 
-const Main = ({ children }) => {
-    return (
-        <>
-            <Nav />
-            <main className={ classes.main }>
-                <div className={ classes.container }>
+// const Main = () => {
+//     return (
+//         <>
+//             <Nav />
+//             <Outlet />
+//         </>
+//     );
+// };
 
-                </div>
-            </main>
-
-        </>
-    );
-};
-
-export default Main;
+// export default Main;
