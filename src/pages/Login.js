@@ -11,6 +11,7 @@ const Login = () => {
     return (
         <div>
             <h1>Login to your account</h1>
+
             <div className="column">
                 <Illustration leftIcon={ leftIcon } />
                 <Form className={ `${ classes.login }` }>
@@ -32,10 +33,6 @@ const Login = () => {
                     <div className="info">
                         Don't have an account? <Link to="/signup">Signup</Link> instead.
                     </div>
-
-
-
-
                 </Form>
             </div>
         </div>
