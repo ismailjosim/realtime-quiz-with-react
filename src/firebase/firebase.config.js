@@ -1,12 +1,11 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
-
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyDDm_wqLsHjyocz39_JUPm9qS1LCorxdqY",
     authDomain: "quizcoderapp.firebaseapp.com",
+    databaseURL: "https://quizcoderapp-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "quizcoderapp",
     storageBucket: "quizcoderapp.appspot.com",
     messagingSenderId: "493862755686",
