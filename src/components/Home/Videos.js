@@ -7,12 +7,6 @@ const Videos = () => {
     const { loading, error, videos } = useVideoList(page);
     // console.log(videos);
 
-
-
-
-
-
-
     return (
         <div>
             {

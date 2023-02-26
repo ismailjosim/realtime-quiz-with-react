@@ -1,26 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import classes from '../../styles/progressbar.module.css';
 import Button from './../utilities/Button';
 
-const ProgressBar = () => {
+const ProgressBar = ({ NextQuestion, PrevQuestion, progress, submitQuestion }) => {
     return (
         <div className={ classes.progressBar }>
-            <div className={ classes.backButton }>
+            <Button onClick={ PrevQuestion } className={ classes.backButton }>
                 <span className="material-icons-outlined"> arrow_back </span>
-            </div>
+            </Button>
             <div className={ classes.rangeArea }>
-                <div className={ classes.tooltip }>24% Cimplete!</div>
+                <div className={ classes.tooltip }>{ progress }% Complete!</div>
                 <div className={ classes.rangeBody }>
-                    <div className={ classes.progress } style={ { width: "20%" } } />
+                    <div className={ classes.progress } style={ { width: `${ progress }%` } } />
                 </div>
             </div>
-            <Link to={ '/result' }>
-                <Button className={ classes.next }>
-                    <span>Next Question</span>
-                    <span className="material-icons-outlined"> arrow_forward </span>
-                </Button>
-            </Link>
+            <Button onClick={ progress === 100 ? submitQuestion : NextQuestion } className={ classes.next }>
+                <span>Next Question</span>
+                <span className="material-icons-outlined"> arrow_forward </span>
+            </Button>
         </div>
 
     );

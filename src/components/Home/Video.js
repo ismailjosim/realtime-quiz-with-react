@@ -7,7 +7,7 @@ const Video = ({ item }) => {
     // console.log(item);
 
     return (
-        noq > 0 ? <Link to={ '/quiz' }>
+        noq > 0 ? <Link to={ `/quiz/${ youtubeID }` }>
             <div className={ classes.video }>
                 <img src={ `http://img.youtube.com/vi/${ youtubeID }/maxresdefault.jpg` } alt={ title } />
                 <p>{ title }</p>
